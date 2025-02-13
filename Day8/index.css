@@ -1,0 +1,33 @@
+
+.main{
+    text-align: center;
+    background-color: cadetblue;
+    color: white;
+}
+.div1{
+    display: flex;
+    flex-direction: row;
+}
+.foodmenu{
+  box-shadow: rgb(0,0,0);
+  width: 330px;
+  height: 330px;
+  border: 2px solid black;
+  background-color: rgba(16, 15, 16,0.89);
+  border-radius: 10%;
+  padding: 25px;
+  margin-right: 40px;
+  
+};
+.foodmenu:hover {
+    box-shadow: 0 8px 16px 0 rgb(202, 196, 196);
+  }
+.image{
+    width: 30%;
+    height: 50%;
+}
+.buttons{
+    text-align: justify;
+    justify-content: space-around;
+    
+}
