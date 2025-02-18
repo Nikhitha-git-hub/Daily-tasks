@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+}
+
+/* .div1{
+    position: relative;
+ background-color: blue;
+ width:100px;
+ height: 100px;
+ /* z-index: 1; */
+/* }  */
+/* .div2{
+    background-color: pink;
+    width: 400px;
+    height: 400px;
+} */
+.div2 > img {
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    z-index: -1;
+    left:15rem;
+
+}
+.div3{
+    position: absolute;
+    width:200px;
+    height: 200px;
+   top:10rem;
+   z-index: 0;
+
+}
+.box{
+    background-color: rgb(255, 255, 255);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    z-index: 1;
+    width: 35rem;
+    height: 25rem;
+    position: relative;
+    top:7rem;
+    left:40rem;
+}
+.box > h2 {
+    color: burlywood;
+    padding: 1rem;
+}
+.box > p {
+    color: rgb(118, 117, 117);
+    padding: 1rem;
+}

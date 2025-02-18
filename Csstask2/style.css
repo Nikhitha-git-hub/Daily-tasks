@@ -1,0 +1,22 @@
+.main{
+    color: rgba(50, 13, 120, 0.85);
+}
+.landypage{
+    display: flex;
+    justify-content: space-between;
+}
+.landy{
+    display: flex;
+    column-gap: 3rem;
+}
+.para{
+     display: flex;
+     width: 100%;
+}
+.landingButtons{
+    /* display: flex; */
+    width:40%;
+}
+.para > img {
+    width:50%
+}
