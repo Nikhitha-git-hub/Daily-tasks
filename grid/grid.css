@@ -1,0 +1,30 @@
+.parent{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(150px,3fr));
+    gap:2rem;
+}
+.child1{
+    background-color: violet;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+.child2{
+    background-color: violet;
+    grid-column-start: 2; 
+    grid-column-end: 3;
+}
+.child3{
+    background-color: violet;
+    grid-column-start: 3;
+    grid-column-end: 3;
+}
+.child4{
+    background-color: violet;
+    grid-column-start: 2;
+    grid-column-end: 4;
+}
+.child5{
+    background-color: violet;
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
