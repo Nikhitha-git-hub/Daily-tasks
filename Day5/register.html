@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>register</title>
+</head>
+<body align="center">
+    <h2>Registration form</h2>
+    <form>
+        <label for="fname">First Name</label>
+        <input type="text" name="fname" pattern="[a-z]+" title="Enter small letters only" required> <br><br>
+        <label for="sname">Second Name</label>
+        <input type="text" name="sname" placeholder="..."> <br><br>
+        <label for="uname">Username</label>
+        <input type="text" name="uname" pattern=".{6-8}" title="username must contain minimum length 6 and maximum length 8"
+        required> <br><br>
+        <label for="num">Enter Your Mobilenumber</label>
+        <input type="text" name="num" pattern="\+91{6789}" required> <br><br>
+        <label for="mail">Enter Your Email</label>  
+        <input type="text" name="mail" > <br><br>
+        <label for="password">New password</label>
+        <input type="password" name="password" > <br><br>
+        <label for="password"> Confirm your New password</label>
+        <input type="cpassword" name="cpassword" > <br><br>
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob" > <br><br>
+        <button>Register</button>  <br><br>
+        <a href="./form.html">Go back to Login </a>
+    </form>
+</body>
+</html>
