@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telangana Buspass</title>
+</head>
+<body>
+    <img src="./busspasspic.png" alt="Bus pass pic">
+    <form action="./form2.html">
+        <fieldset>
+            <legend>Application Details</legend>
+            <label for="name">Name</label>
+            <input type ="text" id="name" name="name"required="required"></input>
+            <label for="fname">Father Name</label>
+            <input type ="text" id="fname" name="fanem" required="required"></input> <br><br>
+            <label for="dateofbirth">Date of birth</label>
+            <input type ="date" id="dateofbirth" ></input>
+            <label for="male">Gender</label>
+            <input type ="radio" id ="male" value="Male" name="Gender"></input>
+            <label for="male">Male</label>
+            <input type ="radio" id ="female" value="Female" name="Gender"></input>
+            <label for="female">Female</label>  <br><br>
+            <label for="age">Age as of Now</label>
+            <input type ="text" id="age" required></input>
+            <label for="adhaarno">Adhaar no.</label>
+            <input type ="text" id="adhaarno" required="required"></input> <br><br>
+            <label for="whatappno">WhatsApp NO</label>
+            <input type ="text" id="whatappno" pattern="\+91{6789}[0-9]"></input>
+            <label for="mail">Email Id:</label>
+            <input type ="mail" id="mail" required></input> <br><br>
+            <label for="photo">Photo</label>
+            <input type ="file" id="photo"required></input>
+
+        </fieldset> <br><br>
+
+        <fieldset>
+            <legend color="blue">Residential Address</legend>
+            <label>Application Address</label>
+            <textarea type="textarea"></textarea>
+            <label for="district">District</label>
+            <select name="District" id="district">
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="Nalgonda">Nalgonda</option>
+                <option value="Khammam">Khammam</option>
+                <option value="Warangal">Warangal</option>
+              </select>  <br><br>
+              <label for="mandal">Mandal</label>
+            <select name="mandal" id="mandal">
+                <option value="Ibp">Ibp</option>
+                <option value="jagityal">jagityal</option>
+                <option value="lbnagar">lbnagar</option>
+                <option value="medchal">medchal</option>
+              </select>  
+              <label for="vlg">Village</label>
+              <select name="vlg" id="vlg">
+                <option value="rangaReddy">RangaReddy</option>
+                <option value="gungal">Gungal</option>
+                <option value="sarvapalli">Sarvapalli</option>
+                <option value="agapalli">Agapalli</option>
+              </select>  <br><br>
+              <label for="pincode">Pincode:</label>
+              <input type="text" name="pincode" pattern="[0-9]+" required></input>
+        </fieldset> <br><br>
+
+        <fieldset>
+            <legend>Pass Type Detail</legend>
+            <label for="city" >city</label> &nbsp;&nbsp;&nbsp;&nbsp;
+            <select>
+                <option value="Hyderabad">Hyderabad</option>
+                <option value="secunderabad">secunderabad</option>
+                <option value="mehadipatnam">Mehadipatnam</option>
+            </select> <br><br>
+            <label for="pass">Pass Type</label>
+            <select>
+                <option value="selectpass">---Select Type----</option>
+                <option value="student">Student pass</option>
+                <option value="regular">Regular pass</option>
+            </select>
+        </fieldset>
+        <br><br>
+
+        <fieldset>
+            <legend>Mode of Payment & Pass Collection</legend>
+            <label for="city" >Payment Mode</label> &nbsp;&nbsp;&nbsp;&nbsp;
+            <select>
+                <option value="selectmode" selected disabled>Select Payment Mode</option>
+                <option value="upi">upi</option>
+                <option value="credit/debit">credit/debit card</option>
+            </select> <br><br>
+            <label for="pass">Pass Delivery Mode</label>
+            <select>
+                <option value="selectpass" selected disabled>Select Pass Delivery Mode</option>
+                <option value="online">Online</option>
+                <option value="offline">Offline</option>
+            </select> <br><br>
+            <label for="pass">Centre at which you <br>want to select pass</label> &nbsp;
+            <select>
+                <option value="selectpass" selected disabled>Select Pass Delivery Mode</option>
+                <option value="online">Online</option>
+                <option value="offline">Offline</option>
+            </select>
+        </fieldset> <br><br>
+     <div align="center">  <img src="./captcha.png"> <br><br>
+         <input type="text" id="captcha"><br><br>
+         <button>Submit</button>
+     </div> 
+
+    </form> 
+   
+
+</body>
+</html>
